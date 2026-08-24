@@ -1,0 +1,23 @@
+[project]
+name = "storage-seasonality-viz"
+version = "0.1.0"
+description = "Energy Storage Seasonality Visualisation."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "dayplot>=0.6.0",
+    "drawarrow>=0.1.0",
+    "highlight-text>=0.2",
+    "ipykernel>=7.3.0",
+    "matplotlib==3.11.0",
+    "morethemes>=0.7.0",
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "pyfonts>=1.4.1",
+    "pypalettes>=0.2.1",
+    "seaborn>=0.13.2",
+    "xlsxwriter==3.2.9",
+]
+
+[tool.uv]
+package = false
