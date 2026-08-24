@@ -2,6 +2,8 @@
 
 Vizualization project to identify the seasonality of an energy storage asset.
 
+![Energy Storage Seasonality Visualisation for three technologies](energy-storage-level_MWh.png)
+
 ## Python environment with uv
 
 This repository uses `uv` with `pyproject.toml` and `uv.lock` to keep the Python environment reproducible.
